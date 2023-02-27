@@ -157,6 +157,7 @@ Navbar
 nav {
   background: var(--clr-primary-2);
   box-shadow: var(--light-shadow);
+  background: rgb(2, 38, 67, 0.3);
 }
 .nav-header {
   display: flex;
@@ -374,12 +375,11 @@ nav {
   background-color: #333333;
 }
 
-.p.copyright {
-  position: absolute;
+.copyright {
+  text-align: center;
   width: 100%;
   color: #fff;
   line-height: 40px;
-  font-size: 0.7em;
-  text-align: center;
+  font-size: 1em;
   bottom:0;
 }
